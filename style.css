@@ -1,0 +1,91 @@
+body {
+    font-family: 'Vollkorn';
+}
+
+#bigName {
+    font-size: 6em;
+    text-align: center;
+    font-weight: normal;   
+}
+
+i {
+    color: black;
+}
+
+#wrapper {
+    margin-right: auto;
+    margin-left:  auto;
+  
+    text-align: center;
+
+    /* max-width: 960px;  */
+  
+    padding-right: 10px;
+    padding-left:  10px;
+}
+
+#class {
+    justify-content: center;
+    align-items: center;
+    display:flex; 
+}
+
+.social-icons {
+    font-size: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.social-icons-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+}
+
+.anotherClass {
+    font-size: 2em;
+    line-height: 50px; 
+}
+
+footer {
+    padding-top: 10px;
+    text-align: center;
+}
+
+#uniqlo {
+    border: 2px solid black;
+    border-radius: 12px;
+    display: inline;    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+@media only screen and (max-width: 760px)  {
+    #class {
+        justify-content: center; 
+        align-items: center;
+        /* display:flex;  */
+    }
+}
+
+@media screen and (max-width: 800px)  {
+    body {
+        text-align: center;
+    }
+
+    #bigName {
+        font-size: 3em;
+    }
+
+    .anotherClass {
+        font-size: 1.5em;
+    }
+
+    .social-icons-wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+}
